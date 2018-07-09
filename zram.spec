@@ -60,7 +60,7 @@ mkdir -p $RPM_BUILD_ROOT%{_sbindir}
 
 
 %changelog
-* Mon jul 09 2018 Luis Alexandre Deschamps Brandão <techmago@ymail.com> - 1.0.2
+* Mon Jul 09 2018 Luis Alexandre Deschamps Brandão <techmago@ymail.com> - 1.0.2
 - Redo all scripts based on CentOs files.
 
 * Tue Nov 25 2014 Juan Orti <jorti@fedoraproject.org> - 1.0.0-1
