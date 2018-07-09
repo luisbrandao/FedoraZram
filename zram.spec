@@ -1,6 +1,6 @@
 Summary: Enable compressed swap in memory
 Name: zram
-Version: 1.0.0
+Version: 1.0.2
 Release: 2%{?dist}
 License: GPLv2
 Group: System Environment/Daemons
@@ -60,6 +60,9 @@ mkdir -p $RPM_BUILD_ROOT%{_sbindir}
 
 
 %changelog
+* Mon jul 09 2018 Luis Alexandre Deschamps Brandão <techmago@ymail.com> - 1.0.2
+- Redo all scripts based on CentOs files.
+
 * Tue Nov 25 2014 Juan Orti <jorti@fedoraproject.org> - 1.0.0-1
 - Spec file cleanup
 
